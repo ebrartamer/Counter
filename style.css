@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(234, 244, 248);
+}
+.divCounter{
+    display: flex;
+    justify-content: center;
+    color:rgb(27, 27, 68);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin-top: 15rem;
+}
+.counter{
+    font-size: 3rem;
+    margin-top: 5vh;
+}
+.divValue{
+    display: flex;
+    justify-content: center;   
+}
+.value{
+    font-size: 4rem;
+    color: rgb(27, 27, 68);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom:5vh
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 2vh;
+   
+}
+.increase{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: transparent;
+    border-radius: 2vh;
+    width: 15vh;
+    height: 5vh;
+    margin-right: 2vh;
+}
+.increase:hover{
+    background-color: green;
+    color:white
+}
+.reset{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: transparent;
+    border-radius: 2vh;
+    width: 15vh;
+    height: 5vh;
+    margin-right: 2vh;
+}
+.reset:hover{
+    background-color:rgb(27, 27, 68) ;
+    color: white;
+}
+.decrease{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: transparent;
+    border-radius: 2vh;
+    width: 15vh;
+    height: 5vh;
+    margin-right: 2vh;   
+}
+.decrease:hover{
+    background-color: red;
+    color:white
+}
